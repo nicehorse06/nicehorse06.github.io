@@ -47,16 +47,20 @@
           "class": "devicon-css3-plain"
         },
         {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain"
-        },
-        {
           "name": "JavaScript",
           "class": "devicon-javascript-plain"
         },
         {
-          "name": "React",
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain"
+        },
+        {
+          "name": "React.js",
           "class": "devicon-react-original"
+        },
+        {
+          "name": "Node.js",
+          "class": "devicon-nodejs-plain"
         },
         {
           "name": "AWS",

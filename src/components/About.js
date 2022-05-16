@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import djangoIcon from "@iconify/icons-logos/django";
-import reactIcon from "@iconify/icons-logos/react";
+import pythonIcon from "@iconify/icons-logos/python";
+import javascriptIcon from "@iconify/icons-logos/javascript";
 import cIcon from "@iconify/icons-logos/c";
 
 class About extends Component {
@@ -31,11 +31,11 @@ class About extends Component {
                     alt="Avatar placeholder"
                   />
                   <Icon
-                    icon={djangoIcon}
+                    icon={pythonIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={reactIcon}
+                    icon={javascriptIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
