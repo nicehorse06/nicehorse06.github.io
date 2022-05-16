@@ -60,7 +60,7 @@
         },
         {
           "name": "AWS",
-          "class": "devicon-amazonwebservices-plain-wordmark"
+          "class": "devicon-amazonwebservices-original"
         },
         {
           "name": "Azure",
@@ -87,8 +87,8 @@
           "class": "devicon-go-original-wordmark"
         },
         {
-          "name": "Mongodb (Preparing)",
-          "class": "devicon-mongodb-plain-wordmark"
+          "name": "MongoDB (Preparing)",
+          "class": "devicon-mongodb-plain"
         },
         {
           "name": "Rust (Preparing)",
