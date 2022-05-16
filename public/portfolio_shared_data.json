@@ -39,11 +39,11 @@
           "class": "devicon-redis-plain"
         },
         {
-          "name": "HTML",
+          "name": "HTML 5",
           "class": "devicon-html5-plain"
         },
         {
-          "name": "CSS",
+          "name": "CSS 3",
           "class": "devicon-css3-plain"
         },
         {
@@ -68,7 +68,7 @@
         },
         {
           "name": "AWS",
-          "class": "devicon-amazonwebservices-plain-wordmark"
+          "class": "devicon-amazonwebservices-original"
         },
         {
           "name": "Azure",
@@ -95,12 +95,12 @@
           "class": "devicon-go-original-wordmark"
         },
         {
-          "name": "Mongodb (Preparing)",
-          "class": "devicon-mongodb-plain-wordmark"
-        },
-        {
           "name": "Rust (Preparing)",
           "class": "devicon-rust-plain"
+        },
+        {
+          "name": "MongoDB (Preparing)",
+          "class": "devicon-mongodb-plain"
         }
       ]
     }
