@@ -8,6 +8,8 @@
 * 更新技術
 * 更新工作經驗
 * 擴充英文版本
+* 塞入信箱
+* 處理繁體中文 I18N icon問題
 
 <h3>:books: Getting started</h3>
 
@@ -41,3 +43,4 @@ homepage property or json data won't load.
 
 ## ref
 * [Dorota1997/react-frontend-dev-portfolio](https://github.com/Dorota1997/react-frontend-dev-portfolio)
+* [devicon](https://devicon.dev/)
