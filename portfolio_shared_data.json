@@ -31,12 +31,8 @@
           "class": "devicon-flask-original"
         },
         {
-          "name": "PostgreSQL",
-          "class": "devicon-postgresql-plain"
-        },
-        {
-          "name": "Redis",
-          "class": "devicon-redis-plain"
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain"
         },
         {
           "name": "HTML 5",
@@ -47,20 +43,16 @@
           "class": "devicon-css3-plain"
         },
         {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain"
-        },
-        {
           "name": "React.js",
           "class": "devicon-react-original"
         },
         {
-          "name": "Node.js",
-          "class": "devicon-nodejs-plain"
+          "name": "PostgreSQL",
+          "class": "devicon-postgresql-plain"
+        },
+        {
+          "name": "Redis",
+          "class": "devicon-redis-plain"
         },
         {
           "name": "Linux",
@@ -68,19 +60,19 @@
         },
         {
           "name": "AWS",
-          "class": "devicon-amazonwebservices-original"
+          "class": "devicon-amazonwebservices-plain-wordmark"
         },
         {
           "name": "Azure",
           "class": "devicon-azure-plain"
         },
         {
-          "name": "Vim",
-          "class": "devicon-vim-plain"
-        },
-        {
           "name": "Docker",
           "class": "devicon-docker-plain"
+        },
+        {
+          "name": "Vim",
+          "class": "devicon-vim-plain"
         },
         {
           "name": "Git",
@@ -95,12 +87,12 @@
           "class": "devicon-go-original-wordmark"
         },
         {
-          "name": "Rust (Preparing)",
-          "class": "devicon-rust-plain"
+          "name": "Mongodb (Preparing)",
+          "class": "devicon-mongodb-plain-wordmark"
         },
         {
-          "name": "MongoDB (Preparing)",
-          "class": "devicon-mongodb-plain"
+          "name": "Rust (Preparing)",
+          "class": "devicon-rust-plain"
         }
       ]
     }
