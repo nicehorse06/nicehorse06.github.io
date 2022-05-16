@@ -39,11 +39,11 @@
           "class": "devicon-redis-plain"
         },
         {
-          "name": "HTML 5",
+          "name": "HTML",
           "class": "devicon-html5-plain"
         },
         {
-          "name": "CSS 3",
+          "name": "CSS",
           "class": "devicon-css3-plain"
         },
         {
@@ -61,6 +61,10 @@
         {
           "name": "Node.js",
           "class": "devicon-nodejs-plain"
+        },
+        {
+          "name": "Linux",
+          "class": "devicon-linux-plain"
         },
         {
           "name": "AWS",
@@ -83,12 +87,20 @@
           "class": "devicon-git-plain"
         },
         {
-          "name": "C",
+          "name": "C (Practicing)",
           "class": "devicon-c-plain"
         },
         {
-          "name": "Go",
+          "name": "Go (Learning)",
           "class": "devicon-go-original-wordmark"
+        },
+        {
+          "name": "Mongodb (Preparing)",
+          "class": "devicon-mongodb-plain-wordmark"
+        },
+        {
+          "name": "Rust (Preparing)",
+          "class": "devicon-rust-plain"
         }
       ]
     }
