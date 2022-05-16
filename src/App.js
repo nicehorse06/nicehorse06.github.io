@@ -92,13 +92,19 @@ class App extends Component {
               )
             }
             style={{ display: "inline" }}
-          >
+          > 
             <span
+              className="iconify language-icon mr-5"
+              data-icon="twemoji:world-map"
+              data-inline="false"
+              id={window.$primaryLanguageIconId}
+            ></span>
+            {/* <span
               className="iconify language-icon mr-5"
               data-icon="twemoji-flag-for-flag-united-kingdom"
               data-inline="false"
               id={window.$primaryLanguageIconId}
-            ></span>
+            ></span> */}
 
           </div>
           <div
@@ -109,14 +115,19 @@ class App extends Component {
               )
             }
             style={{ display: "inline" }}
-          >
+          > 
             <span
-              // TODO 待處理
-              // className="iconify language-icon"
-              // data-icon="twemoji-flag-for-flag-taiwan"
+              className="iconify language-icon"
+              data-icon="twemoji:bubble-tea"
               data-inline="false"
               id={window.$secondaryLanguageIconId}
             ></span>
+            {/* <span
+              className="iconify language-icon"
+              data-icon="twemoji-flag-for-flag-taiwan"
+              data-inline="false"
+              id={window.$secondaryLanguageIconId}
+            ></span> */}
           </div>
         </div>
         <About

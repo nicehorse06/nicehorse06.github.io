@@ -31,36 +31,28 @@
           "class": "devicon-flask-original"
         },
         {
-          "name": "PostgreSQL",
-          "class": "devicon-postgresql-plain"
-        },
-        {
-          "name": "Redis",
-          "class": "devicon-redis-plain"
-        },
-        {
-          "name": "HTML",
-          "class": "devicon-html5-plain"
-        },
-        {
-          "name": "CSS",
-          "class": "devicon-css3-plain"
-        },
-        {
           "name": "JavaScript",
           "class": "devicon-javascript-plain"
         },
         {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain"
+          "name": "HTML 5",
+          "class": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain"
         },
         {
           "name": "React.js",
           "class": "devicon-react-original"
         },
         {
-          "name": "Node.js",
-          "class": "devicon-nodejs-plain"
+          "name": "PostgreSQL",
+          "class": "devicon-postgresql-plain"
+        },
+        {
+          "name": "Redis",
+          "class": "devicon-redis-plain"
         },
         {
           "name": "Linux",
@@ -75,12 +67,12 @@
           "class": "devicon-azure-plain"
         },
         {
-          "name": "Vim",
-          "class": "devicon-vim-plain"
-        },
-        {
           "name": "Docker",
           "class": "devicon-docker-plain"
+        },
+        {
+          "name": "Vim",
+          "class": "devicon-vim-plain"
         },
         {
           "name": "Git",
