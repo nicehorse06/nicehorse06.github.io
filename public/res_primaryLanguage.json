@@ -11,9 +11,36 @@
   },
   "projects": [
     {
-      "title": "Software Engineer Job Note",
+      "title": "Portfolio Website",
+      "startDate": "2022",
+      "description": "My portfolio website for my software experience",
+      "images": [
+        "images/portfolio/portfolio-website/p1.png"
+      ],
+      "url": "https://github.com/nicehorse06/nicehorse06.github.io",
+      "technologies": [
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-plain"
+        }
+      ]
+    },
+    {
+      "title": "Software Job Note",
       "startDate": "2020",
-      "description": " In this project I share my front-end learning and interview experience, useful for beginners in Taiwanese community, it has more than 200 stars and is still increasing.",
+      "description": "In this project I share my front-end learning and interview experience, useful for beginners in Taiwanese community, it has more than 200 stars and is still increasing.",
       "images": [
         "images/portfolio/se-job/p1.png"
       ],

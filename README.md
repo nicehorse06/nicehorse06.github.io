@@ -5,11 +5,8 @@
 * 新增我的專案
 * 導入typescript
 * 導入 tailwind css
-* 更新技術
-* 更新工作經驗
 * 擴充英文版本
-* 塞入信箱
-* 處理繁體中文 I18N icon問題
+* 塞入信箱，直接放footer很醜
 
 <h3>:books: Getting started</h3>
 
