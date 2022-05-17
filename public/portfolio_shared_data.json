@@ -12,6 +12,11 @@
           "name": "linkedin",
           "url": "https://www.linkedin.com/in/jimmy-ma-1b676a122/",
           "class": "fab fa-linkedin"
+        },
+        {
+          "name": "email",
+          "url": "mailto:jimmatw@gmail.com",
+          "class": "fas fa-envelope"
         }
       ],
       "image": "myProfile.jpg"
@@ -85,14 +90,6 @@
         {
           "name": "Go (Learning)",
           "class": "devicon-go-original-wordmark"
-        },
-        {
-          "name": "MongoDB (Preparing)",
-          "class": "devicon-mongodb-plain"
-        },
-        {
-          "name": "Rust (Preparing)",
-          "class": "devicon-rust-plain"
         }
       ]
     }

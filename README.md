@@ -5,8 +5,7 @@
 * 新增我的專案
 * 導入typescript
 * 導入 tailwind css
-* 擴充英文版本
-* 塞入信箱，直接放footer很醜
+* icon加入適當的hover
 
 <h3>:books: Getting started</h3>
 
@@ -40,4 +39,18 @@ homepage property or json data won't load.
 
 ## ref
 * [Dorota1997/react-frontend-dev-portfolio](https://github.com/Dorota1997/react-frontend-dev-portfolio)
-* [devicon](https://devicon.dev/)
+  * 目前使用此專案fork出來的樣板
+  * [devicon](https://devicon.dev/)
+    * 技術icon
+* [saadpasta/developerFolio](https://github.com/saadpasta/developerFolio)
+  * 有nav bar
+  * 有resume連結
+  * 有contact me
+  * Projects 有跟github api連接
+  * 有證照
+* [aarondunphy/aarondunphy.com](https://github.com/aarondunphy/aarondunphy.com)
+  * 很精簡，非一頁式，結合blog
+  * React + Next.js
+* [emmabostian/developer-portfolios](https://github.com/emmabostian/developer-portfolios)
+  * 一推portfolios
+  * 搜尋 portfolio developer 看到的
