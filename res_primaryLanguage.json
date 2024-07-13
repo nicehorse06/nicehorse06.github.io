@@ -67,9 +67,27 @@
   ],
   "experience": [
     {
+      "company": "Lenovo",
+      "title": "Sr. backend software Engineer",
+      "years": "07.2020 - 03.2024",
+      "mainTech": [
+        "Flask", "Vue.js"
+      ],
+      "technologies": [
+        "Python",
+        "Flask",
+        "JavaScript",
+        "Vue.js",
+        "PostgreSQL",
+        "Redis",
+        "Nginx",
+        "Docker"
+      ]
+    },
+    {
       "company": "Hipposcreen",
       "title": "Sr. backend software Engineer",
-      "years": "07.2020 - present",
+      "years": "07.2020 - 02.2022",
       "mainTech": [
         "Django"
       ],
