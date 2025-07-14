@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jimmy Ma | Software Engineer</title>
+  <!-- Google Material Icons & Roboto Font -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    /* ===== Material Design Dark Theme (slightly varied) ===== */
+    :root {
+      --md-sys-color-primary: #90caf9;      /* Blue‑200 */
+      --md-sys-color-surface: #121212;      /* 背景 */
+      --md-sys-color-surface-variant: #1e1e1e; /* 卡片底色 */
+      --md-sys-color-on-surface: #e0e0e0;   /* 主要文字 */
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: var(--md-sys-color-surface);
+      color: var(--md-sys-color-on-surface);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 24px;
+    }
+
+    /* 卡片容器 */
+    .card {
+      background-color: var(--md-sys-color-surface-variant);
+      padding: 32px 40px;
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.6);
+      max-width: 480px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      text-align: center;
+    }
+
+    /* 時鐘 */
+    #clock {
+      font-size: 2.5rem;
+      font-weight: 500;
+      letter-spacing: 0.03em;
+    }
+
+    /* 自介文字 */
+    .intro { line-height: 1.6; font-size: 1.1rem; }
+
+    /* 連結列表 */
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      align-items: flex-start;
+      margin: 0 auto; /* 居中 */
+      width: fit-content;
+    }
+    .link-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 1.05rem;
+    }
+    .link-item a {
+      color: var(--md-sys-color-primary);
+      text-decoration: none;
+    }
+    .link-item a:hover { text-decoration: underline; }
+    .link-item .material-icons { font-size: 1.4rem; }
+
+    /* ===== RWD ===== */
+    @media (max-width: 600px) {
+      body { padding: 16px; }
+      .card { padding: 24px 20px; }
+      #clock { font-size: 2rem; }
+      .links { gap: 12px; }
+    }
+    @media (min-width: 900px) {
+      .card { max-width: 600px; }
+      #clock { font-size: 3rem; }
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <!-- 24h 時鐘 -->
+    <div id="clock">00:00:00</div>
+
+    <!-- 自介文字 (預設中文) -->
+    <div class="intro" id="intro">
+      <p>我是 Jimmy Ma 🐴，</p>
+      <p>來自台灣，是軟體工程師和 TJC 成員。</p>
+    </div>
+
+    <!-- 連結列表 -->
+    <div class="links" id="links">
+      <div class="link-item">
+        <span class="material-icons" aria-hidden="true">business_center</span>
+        <a href="https://www.linkedin.com/in/jimmy-ma-tw/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+      <div class="link-item">
+        <span class="material-icons" aria-hidden="true">photo_camera</span>
+        <a href="https://instagram.com/jimmy_nicehorse" target="_blank" rel="noopener">Instagram</a>
+      </div>
+      <div class="link-item">
+        <span class="material-icons" aria-hidden="true">code</span>
+        <a href="https://github.com/nicehorse06" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <div class="link-item">
+        <span class="material-icons" aria-hidden="true">menu_book</span>
+        <a href="https://github.com/nicehorse06/se-job" target="_blank" rel="noopener">Software Note</a>
+      </div>
+      <div class="link-item">
+        <span class="material-icons" aria-hidden="true">mail</span>
+        <a href="mailto:jimmatw@gmail.com" target="_blank" rel="noopener">Email</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- ===== JavaScript：時鐘 + 語系切換 ===== -->
+  <script>
+    /* ----- 24h 時鐘 ----- */
+    function updateClock() {
+      const now = new Date();
+      const hh = String(now.getHours()).padStart(2, '0');
+      const mm = String(now.getMinutes()).padStart(2, '0');
+      const ss = String(now.getSeconds()).padStart(2, '0');
+      document.getElementById('clock').textContent = `${hh}:${mm}:${ss}`;
+    }
+    setInterval(updateClock, 1000);
+    updateClock();
+
+    /* ----- 依瀏覽器語言顯示英文 (僅替換自介) ----- */
+    (function () {
+      const lang = navigator.language || navigator.userLanguage || '';
+      if (lang.startsWith('en')) {
+        document.documentElement.lang = 'en';
+        document.getElementById('intro').innerHTML =
+          `<p>I'm Jimmy Ma 🐴 from Taiwan,</p> <p>A software engineer and TJC member.</p>`;
+      }
+    })();
+  </script>
+</body>
+</html>
